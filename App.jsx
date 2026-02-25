@@ -1,14 +1,12 @@
-import './App.css';
-import './InfoBox.css';
-import './SearchBox.css';
-import WeatherApp from './WeatherApp';
+import "./App.css";
+import Hook from "./Hook";
 
 function App() {
   return (
     <div>
-      <WeatherApp/>
+      <Hook/>
     </div>
   );
 }
 
-export default App
+export default App;
